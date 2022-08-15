@@ -1,0 +1,5 @@
+gcc ping.c
+sudo ./a.out google.com
+
+Automatically stop after 10 packets
+Or can interrupt with CTrl+c

@@ -1,0 +1,17 @@
+*88.88.88.88 is the IP address of your system
+Server Side:-
+
+gcc -pthread server.c -o server
+./server 5552
+
+*5552 is the port number
+
+CLIENT (1st) SIDE:-
+gcc client.c -o client
+./client 88.88.88.88 5552
+
+
+
+CLIENT (2nd) SIDE:-
+gcc client.c -o client
+./ 88.88.88.88 5552
